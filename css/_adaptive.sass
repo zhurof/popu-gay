@@ -2,6 +2,55 @@
 	a
 		&:hover
 			text-decoration: underline
+	.btn
+		&:hover
+			background: #EABF03
+			text-decoration: none
+	.logo
+		&:hover
+			text-decoration: none
+	.phone-link
+		transition: all .2s ease
+		&:hover
+			text-decoration: none
+			background-color: #FFB200
+			color: #fff
+			&:before
+				color: #fff
+	.header
+		&__menu
+			a
+				&:hover
+					text-decoration: none
+		&__tool
+			transition: all .3s ease
+			&:hover
+				text-decoration: none
+			&--hovered:hover
+				color: #FFB200
+				font-weight: bold
+	.main-menu
+		a
+			transition: all .3s ease
+			&:hover
+				color: $orange
+				text-decoration: none
+	.slider-block
+		&__arrow
+			opacity: 0
+			transition: all .3s ease
+		&:hover &__arrow
+			opacity: 1
+	.post-card
+		&__title
+			a:hover
+				text-decoration: none
+	.infographics
+		&__link
+			transition: all .3s ease
+			&:hover
+				text-decoration: none
+				color: #FFB200
 	.compilation-block
 		&__list
 			>li>a
@@ -9,6 +58,13 @@
 					text-decoration: none
 					i
 						font-size: 22px
+	.social-block
+		&__link
+			&:hover
+				text-decoration: none
+	.contacts-block
+		&__phone:hover
+			text-decoration: none
 @media(max-width:1199px)
 	.wrapper
 		max-width: 992px
