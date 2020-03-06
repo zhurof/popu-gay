@@ -46,6 +46,223 @@
 				
 			</div>
 		</div>
+		<div class="upsell">
+			<div class="wrapper">
+				<div class="upsell__head">
+					<div class="upsell__text">
+						<h2>Популярные товары</h2>
+					</div>
+					<div class="upsell__nav"></div>
+				</div>
+				<div class="upsell__slider">
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
+							<div class="small-card__price">1 700</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">Ультразвуковой отпугиватель собак «Ястреб ОС-2»</h4>
+							<div class="small-card__price">2100</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/0.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">Ультразвуковой отпугиватель грызунов «Торнадо 1200»</h4>
+							<div class="small-card__price">5 900</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">Парник «Торнадо П-6»</h4>
+							<div class="small-card__price">990</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
+							<div class="small-card__price">1 700</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
+							<div class="small-card__price">1 700</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">Ультразвуковой отпугиватель собак «Ястреб ОС-2»</h4>
+							<div class="small-card__price">2100</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/0.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">Ультразвуковой отпугиватель грызунов «Торнадо 1200»</h4>
+							<div class="small-card__price">5 900</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">Парник «Торнадо П-6»</h4>
+							<div class="small-card__price">990</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+					<div class="small-card">
+						<div class="small-card__head">
+							<div class="small-card__slider">
+								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							</div>
+						</div>
+						<div class="small-card__body">
+							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
+							<div class="small-card__price">1 700</div>
+						</div>
+						<a href="#" class="small-card__link"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="promo-block">
+			<div class="wrapper">
+				<div class="promo-block__head">
+					<div class="promo-block__text">
+						<h5>Акции</h5>
+						<h3>Проводим распродажи и выгодные акции, <br>делаем скидки на популярные товары</h3>
+					</div>
+					<div class="promo-block__nav"></div>
+				</div>
+				<div class="promo-block__slider">
+					<div class="promo-card" style="background-image:url(img/promo/0.jpg)">
+						<div class="promo-card__text">
+							<h3>При покупке отпугивателя «Ястреб» клей от мышей в подарок!</h3>
+						</div>
+						<div class="promo-card__date">До 16 февраля</div>
+						<a href="#" class="promo-card__link"></a>
+					</div>
+					<div class="promo-card" style="background-image:url(img/promo/1.jpg)">
+						<div class="promo-card__text">
+							<h3>Скидки до 70% на товары <br>«Здорового питания»!</h3>
+						</div>
+						<div class="promo-card__date">До 20 марта</div>
+						<a href="#" class="promo-card__link"></a>
+					</div>
+					<div class="promo-card" style="background-image:url(img/promo/0.jpg)">
+						<div class="promo-card__text">
+							<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta.</h3>
+						</div>
+						<div class="promo-card__date">До 20 марта</div>
+						<a href="#" class="promo-card__link"></a>
+					</div>
+					<div class="promo-card" style="background-image:url(img/promo/0.jpg)">
+						<div class="promo-card__text">
+							<h3>При покупке отпугивателя «Ястреб» клей от мышей в подарок!</h3>
+						</div>
+						<div class="promo-card__date">До 16 февраля</div>
+						<a href="#" class="promo-card__link"></a>
+					</div>
+					<div class="promo-card" style="background-image:url(img/promo/1.jpg)">
+						<div class="promo-card__text">
+							<h3>Скидки до 70% на товары <br>«Здорового питания»!</h3>
+						</div>
+						<div class="promo-card__date">До 20 марта</div>
+						<a href="#" class="promo-card__link"></a>
+					</div>
+					<div class="promo-card" style="background-image:url(img/promo/0.jpg)">
+						<div class="promo-card__text">
+							<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta.</h3>
+						</div>
+						<div class="promo-card__date">До 20 марта</div>
+						<a href="#" class="promo-card__link"></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="news-block">
 			<div class="wrapper">
 				<div class="news-block__head">
