@@ -31,6 +31,7 @@
 			</div>
 		</div>
 		<div class="category-block">
+			<div class="category-block__label far fa-bug"></div>
 			<div class="category-block__head">
 				<div class="wrapper">
 					<div class="category-block__topline">
@@ -42,8 +43,37 @@
 					</div>
 				</div>
 			</div>
-			<div class="category-block__slider">
-				
+			<div class="category-block__inner">
+				<div class="category-block__slider">
+					<?
+						for($x=0;$x<12;$x++){
+							include "product-card.php";
+						}
+					?>
+				</div>
+			</div>
+		</div>
+		<div class="category-block">
+			<div class="category-block__label far fa-shield-alt"></div>
+			<div class="category-block__head">
+				<div class="wrapper">
+					<div class="category-block__topline">
+						<h2 class="category-block__title">«Защитить себя»</h2>
+						<div class="category-block__nav"></div>
+					</div>
+					<div class="category-block__text">
+						<h4>Отпугните животных или защитите себя от хулиганов с помощью электрошокера.  Большая коллекция электрошокеров разной мощности и типов корпуса — классический, дубинка, фонари.</h4>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper category-block__wrapper">
+				<div class="category-block__slider">
+					<?
+						for($x=0;$x<12;$x++){
+							include "product-card.php";
+						}
+					?>
+				</div>
 			</div>
 		</div>
 		<div class="upsell">
@@ -56,13 +86,14 @@
 				</div>
 				<div class="upsell__slider">
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-							</div>
+						<div class="discount small-card__discount">
+							<span class="discount__key">Распродажа!</span>
+						</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
@@ -71,13 +102,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">Ультразвуковой отпугиватель собак «Ястреб ОС-2»</h4>
@@ -86,13 +115,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/0.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/0.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">Ультразвуковой отпугиватель грызунов «Торнадо 1200»</h4>
@@ -101,13 +128,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">Парник «Торнадо П-6»</h4>
@@ -116,13 +141,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
@@ -131,13 +154,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
@@ -146,13 +167,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">Ультразвуковой отпугиватель собак «Ястреб ОС-2»</h4>
@@ -161,13 +180,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/0.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/0.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">Ультразвуковой отпугиватель грызунов «Торнадо 1200»</h4>
@@ -176,13 +193,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">Парник «Торнадо П-6»</h4>
@@ -191,13 +206,11 @@
 						<a href="#" class="small-card__link"></a>
 					</div>
 					<div class="small-card">
-						<div class="small-card__head">
-							<div class="small-card__slider">
-								<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
-								<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
-							</div>
+						<div class="small-card__slider">
+							<a href="#" class="small-card__slide"><img src="img/catalog/9.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/10.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/11.png" alt=""></a>
+							<a href="#" class="small-card__slide"><img src="img/catalog/12.png" alt=""></a>
 						</div>
 						<div class="small-card__body">
 							<h4 class="small-card__title">«Ястреб 200» отпугиватель <br>крыс и мышей</h4>
@@ -348,5 +361,6 @@
 				</div>
 			</div>
 		</div>
+		<? include "contacts-block.php";?>
 	</main>
 <?php	include "footer.php";?>	

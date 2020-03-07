@@ -33,6 +33,10 @@
 					<a href="#" class="header__tool header__tool--hovered far fa-shopping-cart"></a>
 					<a href="#" class="header__tool header__tool--big far fa-user"></a>					
 				</div>
+				<form action="" class="search-form header__search">
+					<input type="search" class="search-form__input">
+					<span class="fal fa-times search-form__close-btn"></span>
+				</form>
 			</div>
 			<div class="header__bottomline">
 				<ul class="main-menu">

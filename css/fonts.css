@@ -151,3 +151,56 @@
 	font-style: normal;
 	font-display: swap;
 }
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('../fonts/icomoon/icomoon.ttf?bjfvbr') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?bjfvbr') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?bjfvbr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-approve:before {
+  content: "\e900";
+}
+.icon-kremlin:before {
+  content: "\e901";
+}
+.icon-purse:before {
+  content: "\e902";
+}
+.icon-radiator:before {
+  content: "\e903";
+}
+.icon-shield:before {
+  content: "\e904";
+}
+.icon-th:before {
+  content: "\e905";
+}
+.icon-th-list:before {
+  content: "\e906";
+}
+.icon-truck:before {
+  content: "\e907";
+}
+.icon-warehouse:before {
+  content: "\e908";
+}

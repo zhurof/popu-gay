@@ -3,9 +3,12 @@
 		&:hover
 			text-decoration: underline
 	.btn
+		transition: all .3s ease
 		&:hover
 			background: #EABF03
 			text-decoration: none
+		&--gray:hover
+			background: #ddd
 	.slider-arrow
 		&:hover
 			color: $yellow
@@ -36,7 +39,7 @@
 		a
 			transition: all .3s ease
 			&:hover
-				color: $orange
+				color: #FEBA1D
 				text-decoration: none
 	.slider-block
 		&__arrow
@@ -65,9 +68,24 @@
 		&__link
 			&:hover
 				text-decoration: none
+	.menu-widget
+		a:hover
+			text-decoration: none
+			color: $orange
 	.contacts-block
 		&__phone:hover
 			text-decoration: none
+	.catalog-nav
+		&__item
+			transition: all .3s ease
+			&:hover
+				text-decoration: none
+				background-color: $orange
+				color: #fff
+	.product-card
+		&__buy-link
+			&:hover
+				text-decoration: none
 @media(max-width:1199px)
 	.wrapper
 		max-width: 992px
