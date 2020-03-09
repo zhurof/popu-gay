@@ -8,13 +8,18 @@
 		<?endfor;?>
 	</div>
 	<div class="product-card__text">
+		<div class="product-card__tools">
+			<? $status = rand(0,2);?>
+			<span class="product-card__status <?=$status ? '': 'product-card__status--none'?>"><?=$status?'В наличии':'Нет в наличии'?></span>
+			<span class="fal fa-star product-card__favourites-btn"></span>
+		</div>
 		<? $discount = !rand(0,2);?>
 		<?if($discount):?>
 		<div class="discount product-card__discount">
 			<span class="discount__key">Распродажа!</span>
 			<span class="discount__value">-25%</span>
 		</div>
-		<?endif;?>
+		<?endif;?>		
 		<?
 			$titles = ['Электрошокер «Оса 928»','Фонарь-электрошокер Молния 1311 Cree Vip Original','Фонарь-дубинка-электрошокер «Молния 1119А»','Электрошокер-фонарь «X-MAN»']
 		?>
