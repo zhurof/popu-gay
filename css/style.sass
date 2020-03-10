@@ -637,20 +637,21 @@ ul
 .slider-block
 	padding: 45px 0
 	&__slider
-		&:not(.slick-initialized)
-			background: radial-gradient(circle at right 120px top 60px, white 260px, transparent 260px),linear-gradient(to bottom, #86BBE2, #CBE3F3)
-		.slick-list
-			background: radial-gradient(circle at right 120px top 60px, white 260px, transparent 260px),linear-gradient(to bottom, #86BBE2, #CBE3F3)
 		.slick-track
 			display: flex
-			align-items: center
 	&__slide
 		display: flex
 		align-items: center
 		padding: 50px 80px
+		background: 
+			size: cover
+			position: center
+			repeat: no-repeat
 		&.slick-slide
 			display: flex
 			flex: 1 1 auto
+			min-height: 0
+			height: auto
 		&:not(.slick-slide):nth-child(n+2)
 			display: none
 	&__text

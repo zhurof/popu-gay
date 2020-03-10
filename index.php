@@ -3,7 +3,7 @@
 		<div class="slider-block">
 			<div class="wrapper slider-block__wrapper">
 				<div class="slider-block__slider">
-					<div class="slider-block__slide">
+					<div class="slider-block__slide" style="background-image:url(img/slider-bg.svg)">
 						<div class="slider-block__text">
 							<h2>Истребитель насекомых «Баргузин»</h2>
 							<h4>Эффективное приманивание <br>и уничтожение насекомых <br>электрическим током</h4>
@@ -11,17 +11,17 @@
 						</div>
 						<img src="img/radiator.png" alt="" class="slider-block__img">
 					</div>
-					<div class="slider-block__slide">
+					<div class="slider-block__slide" style="background-image:url(img/slider-bg-1.svg)">
 						<div class="slider-block__text">
-							<h2>Истребитель черных треугольников</h2>
+							<h2>Lorem ipsum dolor sit amet, consectetur.</h2>
 							<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ab qui nisi accusamus dicta neque harum soluta delectus sapiente voluptas!</h4>
 							<a href="#" class="btn slider-block__btn">Подробнее</a>
 						</div>
-						<img src="img/logo.png" alt="" class="slider-block__img">
+						<img src="img/radiator.png" alt="" class="slider-block__img">
 					</div>
-					<div class="slider-block__slide">
+					<div class="slider-block__slide" style="background-image:url(img/slider-bg-2.svg)">
 						<div class="slider-block__text">
-							<h2>Капитан Петросян</h2>
+							<h2>Lorem ipsum dolor sit.</h2>
 							<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, assumenda.</h4>
 							<a href="#" class="btn slider-block__btn">Подробнее</a>
 						</div>

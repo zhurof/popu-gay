@@ -915,21 +915,10 @@ ul > li:before {
 .slider-block {
   padding: 45px 0;
 }
-.slider-block__slider:not(.slick-initialized) {
-  background: radial-gradient(circle at right 120px top 60px, white 260px, transparent 260px), -webkit-gradient(linear, left top, left bottom, from(#86BBE2), to(#CBE3F3));
-  background: radial-gradient(circle at right 120px top 60px, white 260px, transparent 260px), linear-gradient(to bottom, #86BBE2, #CBE3F3);
-}
-.slider-block__slider .slick-list {
-  background: radial-gradient(circle at right 120px top 60px, white 260px, transparent 260px), -webkit-gradient(linear, left top, left bottom, from(#86BBE2), to(#CBE3F3));
-  background: radial-gradient(circle at right 120px top 60px, white 260px, transparent 260px), linear-gradient(to bottom, #86BBE2, #CBE3F3);
-}
 .slider-block__slider .slick-track {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .slider-block__slide {
   display: -webkit-box;
@@ -939,6 +928,9 @@ ul > li:before {
       -ms-flex-align: center;
           align-items: center;
   padding: 50px 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .slider-block__slide.slick-slide {
   display: -webkit-box;
@@ -947,6 +939,8 @@ ul > li:before {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
+  min-height: 0;
+  height: auto;
 }
 .slider-block__slide:not(.slick-slide):nth-child(n+2) {
   display: none;
@@ -2229,10 +2223,9 @@ ul > li:before {
     display: block;
     margin: 0 auto;
     max-width: 962px;
-    text-align: right;
   }
   .main-menu > li > a {
-    padding: 7px 10px;
+    padding: 7px 10px 7px 0;
     border: none;
   }
   .main-menu > li.active {
@@ -2490,7 +2483,7 @@ ul > li:before {
     border-bottom: 0;
   }
   .main-menu > li > a {
-    padding: 10px 24px;
+    padding: 10px 15px;
   }
 
   .header__topline {
@@ -2519,14 +2512,6 @@ ul > li:before {
   }
   .slider-block__wrapper {
     padding: 0;
-  }
-  .slider-block__slider:not(.slick-initialized) {
-    background: radial-gradient(circle at right 10vw top 10vw, white 50vw, transparent 50vw), -webkit-gradient(linear, left top, left bottom, from(#86BBE2), to(#CBE3F3));
-    background: radial-gradient(circle at right 10vw top 10vw, white 50vw, transparent 50vw), linear-gradient(to bottom, #86BBE2, #CBE3F3);
-  }
-  .slider-block__slider .slick-list {
-    background: radial-gradient(circle at right 10vw top 10vw, white 50vw, transparent 50vw), -webkit-gradient(linear, left top, left bottom, from(#86BBE2), to(#CBE3F3));
-    background: radial-gradient(circle at right 10vw top 10vw, white 50vw, transparent 50vw), linear-gradient(to bottom, #86BBE2, #CBE3F3);
   }
   .slider-block__slider .slick-track {
     display: block;
