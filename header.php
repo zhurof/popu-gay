@@ -31,7 +31,8 @@
 					<span class="header__tool far fa-search" id="search-btn"></span>
 					<a href="#" class="header__tool header__tool--hovered far fa-star"></a>
 					<a href="#" class="header__tool header__tool--hovered far fa-shopping-cart"></a>
-					<a href="#" class="header__tool header__tool--big far fa-user"></a>					
+					<a href="#" class="header__tool header__tool--big far fa-user"></a>
+					<span class="far fa-bars header__tool menu-btn"></span>
 				</div>
 				<form action="" class="search-form header__search">
 					<input type="search" class="search-form__input">
@@ -48,6 +49,10 @@
 					<li><a href="#">Здоровое питание</a></li>
 					<li><a href="#">Автотовары</a></li>
 					<li class="highlighted"><a href="#">Распродажа</a></li>
+					<li class="mobile-item"><a href="#">Доставка</a></li>
+					<li class="mobile-item"><a href="#">Оплата</a></li>
+					<li class="mobile-item"><a href="#">О нас</a></li>
+					<li class="mobile-item"><a href="contacts.php">Контакты</a></li>
 				</ul>
 			</div>
 		</div>
@@ -219,9 +224,10 @@
 			<h4>При заказе через сайт. Выберите этот метод при формировании заказа онлайн.</h4>
 		</div>
 		<div class="dropdown-window__column">
-			<h3><i class="fal fa-"></i> Наложный платеж по почте</h3>
+			<h3><i class="fal fa-envelope-open-text"></i> Наложный платеж по почте</h3>
 			<p>При заказе через сайт. Выберите этот метод при формировании заказа онлайн.</p>
-			<h3><i class="fal fa-"></i> Безналичный расчет </h3>
+			<h3><i class="fal fa-briefcase"></i> Безналичный расчет </h3>
 			<p>Для юридических лиц. Свяжитесь с менеджерами для получения счета на оплату и закрывающих документов</p>
+			<a href="#" class="dropdown-window__link">Подробнее об оплате</a>
 		</div>
 	</div>

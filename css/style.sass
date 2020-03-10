@@ -32,6 +32,7 @@ body
 	min-height: 100vh
 	font: normal normal 14px/1.36 Lato,sans-serif
 	position: relative
+	min-width: 320px
 header,footer
 	flex: 0 0 auto
 main
@@ -212,6 +213,7 @@ ul
 		display: flex
 		align-items: center
 		justify-content: center
+		margin: 15px 0 0
 		>li
 			display: inline-block
 			width: 12px
@@ -245,6 +247,7 @@ ul
 	line-height: 1.8
 	cursor: pointer
 	transition: all .3s ease
+	-webkit-tap-highlight-color: transparent
 	&.slick-disabled
 		opacity: 0
 		pointer-events: none
@@ -403,6 +406,8 @@ ul
 			border-bottom: 3px solid transparent
 		&.highlighted
 			color: $red
+		&.mobile-item
+			display: none
 		&.active>a
 			border-color: #FEBA1D
 .catalog-btn
@@ -452,7 +457,7 @@ ul
 		top: 30px
 		width: 60px
 		line-height: 60px
-		text-align: center	
+		text-align: center
 .header
 	background-color: #f9f9f9
 	font-size: 16px
@@ -524,6 +529,8 @@ ul
 		opacity: 0
 		pointer-events: none
 		transition: all .3s ease
+.menu-btn
+	display: none
 .catalog-banner
 	font-size: 16px
 	line-height: 22/16*1
@@ -552,20 +559,80 @@ ul
 			padding-bottom: 0
 			border-bottom: none
 .dropdown-window
+	display: flex
+	justify-content: space-between
 	width: 640px
 	max-width: 100%
-	min-height: 423px
 	background-color: #fff
 	position: absolute
 	z-index: 3
-	padding: 22px 30px 63px
+	padding: 22px 30px
 	box-shadow: 0 0 10px rgba(0,0,0,.2)
 	transition: all .3s ease
 	opacity: 0
 	pointer-events: none
+	color: #9A9A9A
 	&--open
 		opacity: 1
 		pointer-events: auto
+	&__column
+		flex: 0 1 calc(50% - 15px)
+		display: flex
+		flex-direction: column
+		align-items: flex-start
+	h3
+		font-size: 16px
+		width: 100%
+		border-bottom: 1px solid #EBEBEB
+		padding: 0 0 .5em
+		margin: 0 0 .75em
+		color: #000
+		&:last-child
+			margin-bottom: 0
+		i
+			color: #FFB200
+			font-size: 18/16*1em
+			line-height: 1
+			margin-right: .2em
+		.icon-kremlin
+			font-size: 1.5em
+			line-height: .5
+			margin-right: 0
+	h4
+		font-weight: inherit
+		font-size: 16px
+		line-height: 18/16*1
+		color: #000
+		margin: 0
+	p
+		margin: 0 0 1.5em
+		&:last-child
+			margin-bottom: 0
+	ul
+		color: #000
+		font-size: 16px
+		padding: 0
+		margin: 0 0 1em
+		&:last-child
+			margin-bottom: 0
+		>li
+			margin: 0
+			&:before
+				color: inherit
+				position: static
+				margin-right: .4em
+	&__link
+		display: block
+		width: max-content
+		max-width: 100%
+		text-align: right
+		margin: auto 0 0 auto
+		font-size: 12px
+		font-weight: bold
+		text-transform: uppercase
+		letter-spacing: .3px
+		color: #000
+		border-bottom: 1px solid #FFB200
 /*ОСНОВНОЕ СОДЕРЖИМОЕ*/
 .slider-block
 	padding: 45px 0
@@ -588,6 +655,8 @@ ul
 			display: none
 	&__text
 		flex: 0 1 calc(50% - 30px)
+		h4
+			font-weight: inherit
 	&__img
 		max-width: calc(50% - 30px)
 		max-height: 240px
@@ -645,6 +714,8 @@ ul
 	max-width: calc(100% - 20px)
 	margin: 0 10px 40px
 	position: relative
+	&.slick-slide
+		margin-bottom: 0
 	&__slider
 		border: 1px solid #FAEDEE
 		position: relative
@@ -859,6 +930,8 @@ ul
 			font-weight: inherit
 	&__inner
 		padding-left: calc(50% - 590px)
+		&--double
+			padding-right: calc(50% - 590px)
 		
 .small-card
 	width: 280px
@@ -952,6 +1025,7 @@ ul
 	&.slick-slide
 		display: flex
 		flex: 1 1 auto
+		margin-bottom: 0
 	&__text
 		margin: 0 0 20px
 		position: relative

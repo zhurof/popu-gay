@@ -1,5 +1,5 @@
 ﻿function isMobile(){
-	return innerWidth < 992;
+	return innerWidth < 1366;
 }
 
 //Шапка
@@ -10,9 +10,16 @@ $('.catalog-btn').click(function(e){
 })
 $('#search-btn').click(function(e){
 	$('.search-form').addClass('search-form--open').find('input').focus();
+	$('.menu-btn').removeClass('menu-btn--active');
+	$('.header__bottomline').removeClass('header__bottomline--open')
 })
 $('.search-form__close-btn').click(function(){
 	$(this).siblings('input').val('').closest('.search-form').removeClass('search-form--open');
+})
+$('.menu-btn').click(function(){
+	$(this).toggleClass('menu-btn--active');
+	$('.header__bottomline').toggleClass('header__bottomline--open');
+	$('.search-form').removeClass('search-form--open')
 })
 
 //Выпадающие блоки из меню в шапке вне самого меню
@@ -42,7 +49,21 @@ $('.slider-block__slider').slick({
 	nextArrow: '<span class="fas fa-angle-right slider-block__arrow slider-block__arrow--next" />',
 	dots: true,
 	dotsClass: 'slick-dots slider-block__dots',
-	customPaging: function(){return ''}
+	customPaging: function(){return ''},
+	responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				arrows: false
+			}
+		},{
+			breakpoint: 768,
+			settings: {
+				arrows: false,
+				adaptiveHeight: true
+			}
+		}
+	]
 })
 
 //Смена слайда наведением мыши
@@ -56,7 +77,7 @@ function changeSlideByMousemove(e){
 		slick.slickGoTo(targetSlide,true);
 	}
 }
-$('.product-card__slider,.small-card__slider').on('init reInit',function(){
+$('.product-card__slider,.small-card__slider').on('init reInit breakpoint',function(){
 	//Вешаю обрабочик только после инициализации слайдера и только в полной версии. В мобиле удобнее swipe
 	if(isMobile()){
 		$(this).off('mousemove',changeSlideByMousemove);
@@ -75,10 +96,9 @@ $('.product-card__slider').slick({
 	customPaging: function(){return ''},
 	responsive: [
 		{
-			breakpoint: 992,
+			breakpoint: 1366,
 			settings: {
-				swipe: true,
-				infinite: true
+				swipe: true
 			}
 		}
 	]
@@ -128,10 +148,9 @@ $('.small-card__slider').slick({
 	customPaging: function(){return ''},
 	responsive: [
 		{
-			breakpoint: 992,
+			breakpoint: 1366,
 			settings: {
-				swipe: true,
-				infinite: true
+				swipe: true
 			}
 		}
 	]
@@ -139,7 +158,6 @@ $('.small-card__slider').slick({
 
 $('.category-block__slider').each(function(index,element){
 	$(element).slick({
-		slidesToShow: 4,
 		variableWidth: true,
 		speed: 300,
 		/*сложно сделать его бесконечным, поскольку внутри его слайдов есть свои слайдеры*/
@@ -148,11 +166,14 @@ $('.category-block__slider').each(function(index,element){
 		prevArrow: '<span class="fas fa-arrow-left slider-arrow category-block__arrow category-block__arrow--prev" />',
 		nextArrow: '<span class="fas fa-arrow-right slider-arrow category-block__arrow category-block__arrow--next" />',
 		appendArrows: '.category-block__nav:eq('+index+')',
+		dotsClass: 'slick-dots category-block__dots',
+		customPaging: function(){return ''},
 		responsive: [
 			{
-				breakpoint: 992,
+				breakpoint: 768,
 				settings: {
-					swipe: true
+					dots: true,
+					variableWidth: false
 				}
 			}
 		]
@@ -168,11 +189,28 @@ $('.upsell__slider').each(function(index,element){
 		prevArrow: '<span class="fas fa-arrow-left slider-arrow upsell__arrow upsell__arrow--prev" />',
 		nextArrow: '<span class="fas fa-arrow-right slider-arrow upsell__arrow upsell__arrow--next" />',
 		appendArrows: '.upsell__nav:eq('+index+')',
+		dotsClass: 'slick-dots upsell__dots',
+		customPaging: function(){return ''},
 		responsive: [
 			{
+				breakpoint: 1366,
+				settings: {
+					slidesToShow: 4
+				}
+			},{
 				breakpoint: 992,
 				settings: {
-					swipe: true
+					slidesToShow: 3
+				}
+			},{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2
+				}
+			},{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1
 				}
 			}
 		]
@@ -185,7 +223,19 @@ $('.promo-block__slider').each(function(index,element){
 		//prevArrow: '<span class="fas fa-arrow-left slider-arrow promo-block__arrow promo-block__arrow--prev" />',
 		prevArrow: false,
 		nextArrow: '<span class="fas fa-arrow-right slider-arrow promo-block__arrow promo-block__arrow--next" />',
-		appendArrows: '.promo-block__nav:eq('+index+')'
+		appendArrows: '.promo-block__nav:eq('+index+')',
+		dotsClass: 'slick-dots promo-block__dots',
+		customPaging: function(){return ''},
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+					dots: true
+				}
+			}
+		]
 	})
 })
 
@@ -199,6 +249,13 @@ $('.sort__btn').click(function(){
 	}
 	$('.product-card__slider').slick('setPosition');
 	$(this).addClass('sort__btn--active').siblings().removeClass('sort__btn--active');
+})
+//в мобилке вполне достаточно одного вида карточек
+$(window).on('load resize',function(){
+	if(innerWidth < 992){
+		$('.product-card').removeClass('product-card--horizontal');
+		$('.sort__btn').removeClass('sort__btn--active').filter('[data-view="table"]').addClass('sort__btn--active');
+	}
 })
 
 //модальные окна

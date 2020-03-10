@@ -1,7 +1,7 @@
 ﻿<?php	include "header.php";?>		
 	<main>
 		<div class="slider-block">
-			<div class="wrapper">
+			<div class="wrapper slider-block__wrapper">
 				<div class="slider-block__slider">
 					<div class="slider-block__slide">
 						<div class="slider-block__text">
@@ -66,7 +66,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="wrapper category-block__wrapper">
+			<div class="category-block__inner category-block__inner--double">
 				<div class="category-block__slider">
 					<?
 						for($x=0;$x<12;$x++){
